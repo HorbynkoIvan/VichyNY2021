@@ -1,0 +1,74 @@
+.bestbuy {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  .buy {
+    flex-basis: 497px;
+    background: $white;
+
+    .buy_top {
+      padding: 25px 25px 0 25px;
+
+      .top_inner {
+        background: lightgrey;
+        position: relative;
+        width: 100%;
+        padding-bottom: 90%;
+
+        .inner_title {
+          position: absolute;
+          top: 50px;
+          left: 50%;
+          transform: translateX(-50%);
+          //margin-bottom: 37px;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #AF000D;
+          width: 100%;
+          letter-spacing: -0.5px;
+          z-index: 1;
+        }
+
+        img {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -35px;
+        }
+      }
+    }
+
+    .buy_mid {
+      padding-top: 47px;
+
+      .mid_title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: $black;
+        text-align: center;
+      }
+
+      .mid_list {
+        margin: 10px 0 10px 50px;
+
+        li {
+          font-size: 20px;
+          line-height: 24px;
+          color: $primary3
+        }
+      }
+    }
+
+    .buy_bottom {
+      .buy_btn {
+
+      }
+    }
+  }
+}

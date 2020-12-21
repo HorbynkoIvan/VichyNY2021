@@ -1,0 +1,22 @@
+.magic{
+  padding: 56px 0 0 0;
+  .title{
+    display: block;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $primary2;
+    margin-bottom: 22px;
+  }
+  .subtitle{
+    display: block;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: $black;
+  }
+}
