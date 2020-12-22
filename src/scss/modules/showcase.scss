@@ -1,0 +1,70 @@
+.showcase {
+  background: url("/assets/img/banner.jpg") center top no-repeat;
+  background-size: cover;
+
+  .showcase_wrap {
+    padding-top: 57px;
+    padding-bottom: 576px;
+
+    .showcase_info {
+      .showcase_title {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 58px;
+        text-transform: uppercase;
+      }
+
+      .showcase_text {
+        font-size: 48px;
+        line-height: 58px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .showcase {
+
+    .showcase_wrap {
+      padding-top: 57px;
+      padding-bottom: 376px;
+
+      .showcase_info {
+        .showcase_title {
+          font-size: 36px;
+          line-height: 42px;
+        }
+
+        .showcase_text {
+          font-size: 36px;
+          line-height: 42px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase {
+
+    .showcase_wrap {
+      padding-top: 67px;
+      padding-bottom: 191px;
+
+      .showcase_info {
+        .showcase_title {
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+        }
+
+        .showcase_text {
+          display: block;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
