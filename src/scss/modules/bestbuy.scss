@@ -3,6 +3,8 @@
   justify-content: space-between;
   max-width: 1024px;
   margin: 0 auto;
+  padding-top: 119px;
+  padding-bottom: 140px;
 
   .buy {
     flex-basis: 497px;
@@ -13,7 +15,7 @@
       .top_inner {
         position: relative;
         width: 100%;
-        padding-bottom: 90%;
+        padding-bottom: 86%;
 
         .inner_title {
           position: absolute;
@@ -32,16 +34,32 @@
           z-index: 1;
         }
 
-        img {
+        .top_frame {
           position: absolute;
           left: 50%;
           transform: translateX(-50%);
           bottom: -35px;
         }
+
+        .top_img {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+          transition: all .4s ease-in-out;
+        }
+      }
+
+      &:hover {
+        .top_img {
+          transform: translateX(-50%) scale(1.05);
+        }
       }
     }
 
     .buy_mid {
+      position: relative;
       padding-top: 47px;
       background: $white;
 
@@ -54,8 +72,7 @@
       }
 
       .mid_list {
-
-        margin: 10px 0 10px 50px;
+        padding: 10px 0 10px 50px;
 
         li {
           font-size: 20px;
@@ -68,6 +85,80 @@
     .buy_bottom {
       .buy_btn {
 
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .bestbuy {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-top: 119px;
+    padding-bottom: 140px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+
+    .buy {
+      flex-basis: 350px;
+
+      .buy_top {
+
+        .top_inner {
+
+          .inner_title {
+            font-size: 20px;
+            line-height: 24px;
+            max-width: 250px;
+          }
+
+          .top_frame {
+            bottom: -35px;
+            img {
+              max-width: 350px;
+            }
+          }
+
+          .top_img {
+            bottom: -15px;
+            img {
+              max-width: 190px;
+            }
+          }
+        }
+      }
+
+      .buy_mid {
+        padding-top: 20px;
+
+        .mid_title {
+          max-width: 330px;
+          padding-bottom: 0px;
+          font-size: 20px;
+          line-height: 24px;
+          margin: 0 auto;
+        }
+
+        .mid_list {
+          padding: 10px 20px 10px 20px;
+
+          li {
+            font-size: 15px;
+            line-height: 20px;
+          }
+        }
+      }
+
+      .buy_bottom {
+        .buy_btn {
+
+        }
       }
     }
   }

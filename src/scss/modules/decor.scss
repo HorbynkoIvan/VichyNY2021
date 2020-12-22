@@ -1,12 +1,5 @@
 .decor_wrapper {
   position: relative;
-  background: url("/assets/img/decor_bg_wave.jpg") center top no-repeat;
-  background-size: cover;
-  min-height: 1000px;
-
-  //.decor_wave {
-  //  background: url("/assets/img/decor_wave.svg") center top no-repeat;
-  //  background-size: cover;
-  //  height: 219px;
-  //}
+  background: url("/assets/img/decor_bg_full.jpg") center top no-repeat;
+  background-size: auto;
 }

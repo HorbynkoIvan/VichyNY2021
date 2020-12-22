@@ -1,5 +1,6 @@
 .vichy {
   padding-top: 86px;
+
   .vichy_wrapper {
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,7 @@
       transition: all .4s ease-in-out;
 
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
     }
 
@@ -49,7 +50,7 @@
       }
 
       .limit_info_inner {
-        padding: 25px 58px;
+        padding: 25px 58px 0;
         box-sizing: border-box;
         position: relative;
 
@@ -74,13 +75,14 @@
 
       }
 
-      .decor{
+      .decor {
         width: 380px;
         height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
       }
+
       .decor1 {
         background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_btn_water.jpg") center top no-repeat;
         background-size: cover;
@@ -122,8 +124,139 @@
         color: #002D40;
       }
 
-      .limit_img_btn{
+      .limit_img_btn {
         margin-top: 43px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .vichy {
+    padding-top: 86px;
+
+    .vichy_wrapper {
+      max-width: 768px;
+      margin: 0 auto;
+      padding-left: 25px;
+      padding-right: 25px;
+
+
+      .limit_text_mob {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 120%;
+
+        text-align: center;
+        text-transform: uppercase;
+        color: #00667D;
+        max-width: 100%;
+        margin: 0px auto 4px;
+        display: none;
+      }
+
+      .card {
+        flex-basis: 350px;
+      }
+
+      .limit_img img {
+        max-width: 350px;
+      }
+
+      .limit_info {
+
+        .limit_text {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 29px;
+
+          text-align: center;
+          text-transform: uppercase;
+
+          color: $primary4;
+          max-width: 385px;
+          margin: 20px auto 10px;
+        }
+
+        .limit_info_inner {
+          padding: 25px 58px 0;
+          box-sizing: border-box;
+          position: relative;
+
+
+        }
+
+        .limit_list {
+          font-size: 20px;
+          line-height: 24px;
+          color: $primary5;
+          list-style-position: outside;
+
+          li {
+            display: inline-block;
+
+            &:before {
+              content: url("/assets/img/list_pin.png");
+              padding-right: 10px;
+              vertical-align: middle;
+            }
+          }
+
+        }
+
+        .decor {
+          width: 380px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .decor1 {
+          background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_btn_water.jpg") center top no-repeat;
+          background-size: cover;
+          color: $white;
+          margin-top: 11px;
+
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 24px;
+        }
+
+        .decor2 {
+          background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/vichy89/img/bg_btn_acid.jpg") center top no-repeat;
+          background-size: cover;
+          color: $primary4;
+          margin-top: 20px;
+
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 24px;
+        }
+
+        .decor3 {
+          color: $primary4;
+          border: 2px solid #00667D;
+          margin-top: 20px;
+          margin-bottom: 18px;
+          box-sizing: border-box;
+
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 29px;
+        }
+
+        .subtext {
+          font-size: 13px;
+          line-height: 16px;
+          display: block;
+          color: #002D40;
+        }
+
+        .limit_img_btn {
+          margin-top: 43px;
+        }
       }
     }
   }
