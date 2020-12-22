@@ -6,13 +6,11 @@
 
   .buy {
     flex-basis: 497px;
-    background: $white;
+
 
     .buy_top {
-      padding: 25px 25px 0 25px;
 
       .top_inner {
-        background: lightgrey;
         position: relative;
         width: 100%;
         padding-bottom: 90%;
@@ -45,6 +43,7 @@
 
     .buy_mid {
       padding-top: 47px;
+      background: $white;
 
       .mid_title {
         font-weight: bold;
@@ -55,6 +54,7 @@
       }
 
       .mid_list {
+
         margin: 10px 0 10px 50px;
 
         li {
