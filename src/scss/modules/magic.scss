@@ -1,7 +1,6 @@
 .magic{
   padding: 56px 0 0 0;
   .title{
-    display: block;
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
@@ -10,13 +9,32 @@
     color: $primary2;
     margin-bottom: 22px;
   }
-  .subtitle{
-    display: block;
+  .text1,.text2{
     max-width: 1024px;
     margin: 0 auto;
     font-size: 36px;
     line-height: 43px;
     text-align: center;
     color: $black;
+  }
+}
+
+@media (max-width: 768px) {
+  .magic{
+    padding: 21px 0 0 0;
+    .title{
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 22px;
+    }
+    .text1,.text2{
+      display: block;
+      max-width: 1024px;
+      margin: 0 auto;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: $black;
+    }
   }
 }
