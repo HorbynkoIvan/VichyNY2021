@@ -23,7 +23,7 @@
           left: 50%;
           transform: translateX(-50%);
           //margin-bottom: 37px;
-          font-weight: bold;
+          font-family: $font-gothic-bold !important;
           font-size: 24px;
           line-height: 29px;
           text-align: center;
@@ -43,7 +43,7 @@
 
         .top_img {
           position: absolute;
-          bottom: 0;
+          bottom: -35px;
           left: 50%;
           transform: translateX(-50%);
           z-index: 1;
@@ -64,7 +64,7 @@
       background: $white;
 
       .mid_title {
-        font-weight: bold;
+        font-family: $font-gothic-bold !important;
         font-size: 24px;
         line-height: 29px;
         color: $black;
@@ -185,7 +185,7 @@
             top: 20px;
             font-size: 16px;
             line-height: 19px;
-            max-width: 250px;
+            max-width: 210px;
           }
 
           .top_frame {
@@ -199,7 +199,7 @@
           .top_img {
             bottom: -15px;
             img {
-              max-width: 162px;
+              max-width: 200px;
             }
           }
         }

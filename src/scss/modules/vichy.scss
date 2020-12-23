@@ -28,7 +28,7 @@
     .limit_info {
 
       .limit_text {
-        font-weight: bold;
+        font-family: $font-gothic-bold !important;
         font-size: 24px;
         line-height: 29px;
 
@@ -37,11 +37,11 @@
 
         color: $primary4;
         max-width: 385px;
-        margin: 20px auto 10px;
+        margin: 10px auto 0px;
       }
 
       .limit_info_inner {
-        padding: 25px 58px 0;
+        padding: 23px 58px 0;
         box-sizing: border-box;
         position: relative;
 
@@ -58,7 +58,7 @@
           display: inline-block;
 
           &:before {
-            content: url("/assets/img/list_pin.png");
+            content: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/NYvichy89/list_pin.png");
             padding-right: 10px;
             vertical-align: middle;
           }
@@ -80,7 +80,7 @@
         color: $white;
         margin-top: 11px;
 
-        font-weight: bold;
+        font-family: $font-gothic-bold !important;
         font-size: 20px;
         line-height: 24px;
       }
@@ -91,7 +91,7 @@
         color: $primary4;
         margin-top: 20px;
 
-        font-weight: bold;
+        font-family: $font-gothic-bold !important;
         font-size: 20px;
         line-height: 24px;
       }
@@ -103,7 +103,7 @@
         margin-bottom: 18px;
         box-sizing: border-box;
 
-        font-weight: bold;
+        font-family: $font-gothic-bold !important;
         font-size: 24px;
         line-height: 29px;
       }
@@ -163,7 +163,7 @@
             display: inline-block;
 
             &:before {
-              content: url("/assets/img/list_pin.png");
+              content: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/NYvichy89/list_pin.png");
               padding-right: 10px;
               vertical-align: middle;
             }
@@ -185,7 +185,7 @@
           color: $white;
           margin-top: 11px;
 
-          font-weight: bold;
+          font-family: $font-gothic-bold !important;
           font-size: 18px;
           line-height: 24px;
         }
@@ -196,7 +196,7 @@
           color: $primary4;
           margin-top: 20px;
 
-          font-weight: bold;
+          font-family: $font-gothic-bold !important;
           font-size: 20px;
           line-height: 24px;
         }
@@ -208,7 +208,7 @@
           margin-bottom: 18px;
           box-sizing: border-box;
 
-          font-weight: bold;
+          font-family: $font-gothic-bold !important;
           font-size: 24px;
           line-height: 29px;
         }
@@ -237,7 +237,7 @@
 
       .limit_text_mob {
         display: block;
-        font-weight: bold;
+        font-family: $font-gothic-bold !important;
         font-size: 16px;
         line-height: 19px;
 

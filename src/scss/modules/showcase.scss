@@ -1,5 +1,5 @@
 .showcase {
-  background: url("/assets/img/banner.jpg") center top no-repeat;
+  background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/NYvichy89/banner.jpg") center top no-repeat;
   background-size: cover;
 
   .showcase_wrap {
@@ -12,7 +12,7 @@
 
     .showcase_info {
       .showcase_title {
-        font-weight: bold;
+        font-family: $font-gothic-bold !important;
         font-size: 48px;
         line-height: 58px;
         text-transform: uppercase;
@@ -50,7 +50,7 @@
 
 @media (max-width: 767px) {
   .showcase {
-    background: url("/assets/img/banner_mob.jpg") center top no-repeat;
+    background: url("https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/NYvichy89/banner_mob.jpg") center top no-repeat;
 
     .showcase_wrap {
       position: relative;

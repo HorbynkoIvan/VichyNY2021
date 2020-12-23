@@ -9,7 +9,7 @@
   }
 
   .bestwant_title {
-    font-weight: bold;
+    font-family: $font-gothic-bold !important;
     margin-top: 72px;
   }
 
@@ -26,7 +26,7 @@
     .card {
       flex-basis: 497px;
       position: relative;
-      z-index: 1;
+      z-index: 2;
 
       .decor1 {
         position: absolute;
@@ -57,7 +57,7 @@
 
           .top_img {
             position: absolute;
-            bottom: 0;
+            bottom: -40px;
             left: 50%;
             transform: translateX(-50%);
             z-index: 1;
@@ -81,8 +81,8 @@
           max-width: 431px;
           margin: 0 auto;
           padding-bottom: 24px;
-          min-height: 116px;
-          font-weight: bold;
+          min-height: 140px;
+          font-family: $font-gothic-bold !important;
           font-size: 24px;
           line-height: 29px;
           color: $black;
@@ -118,7 +118,7 @@
     }
 
     .bestwant_title {
-      font-weight: bold;
+      font-family: $font-gothic-bold !important;
       margin-top: 35px;
     }
 
@@ -163,6 +163,7 @@
 
           .mid_title {
             max-width: 330px;
+            min-height: 116px;
             padding-bottom: 0px;
             font-size: 20px;
             line-height: 24px;
@@ -235,6 +236,7 @@
             }
 
             .top_img {
+              bottom: 0;
               img {
                 max-width: 288px;
               }
