@@ -22,11 +22,11 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .showcase {
 
     .showcase_wrap {
-      padding-top: 57px;
+      padding-top: 20px;
       padding-bottom: 376px;
 
       .showcase_info {
@@ -44,7 +44,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .showcase {
 
     .showcase_wrap {
