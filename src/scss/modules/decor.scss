@@ -2,4 +2,22 @@
   position: relative;
   background: url("/assets/img/decor_bg_full.jpg") center top no-repeat;
   background-size: auto;
+
+  .decor_bubbles_mob{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .decor_wrapper {
+    background: url("/assets/img/decor_bg_mob.jpg") center top no-repeat;
+    background-size: cover;
+
+    .decor_bubbles_mob{
+      display: block;
+      position: absolute;
+      right: -130px;
+      bottom: -100px;
+    }
+  }
 }

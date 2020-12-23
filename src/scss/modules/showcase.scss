@@ -6,6 +6,10 @@
     padding-top: 57px;
     padding-bottom: 576px;
 
+    .showcase_decor1 {
+      display: none;
+    }
+
     .showcase_info {
       .showcase_title {
         font-weight: bold;
@@ -46,10 +50,19 @@
 
 @media (max-width: 767px) {
   .showcase {
+    background: url("/assets/img/banner_mob.jpg") center top no-repeat;
 
     .showcase_wrap {
+      position: relative;
       padding-top: 67px;
       padding-bottom: 191px;
+
+      .showcase_decor1 {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
 
       .showcase_info {
         .showcase_title {

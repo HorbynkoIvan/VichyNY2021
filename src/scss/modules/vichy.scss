@@ -9,15 +9,6 @@
 
 
     .limit_text_mob {
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 120%;
-
-      text-align: center;
-      text-transform: uppercase;
-      color: #00667D;
-      max-width: 100%;
-      margin: 0px auto 4px;
       display: none;
     }
 
@@ -131,7 +122,6 @@
   }
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .vichy {
     padding-top: 86px;
@@ -141,20 +131,6 @@
       margin: 0 auto;
       padding-left: 25px;
       padding-right: 25px;
-
-
-      .limit_text_mob {
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 120%;
-
-        text-align: center;
-        text-transform: uppercase;
-        color: #00667D;
-        max-width: 100%;
-        margin: 0px auto 4px;
-        display: none;
-      }
 
       .card {
         flex-basis: 350px;
@@ -246,6 +222,94 @@
 
         .limit_img_btn {
           margin-top: 43px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .vichy {
+   padding-top: 22px;
+
+    .vichy_wrapper {
+      flex-direction: column;
+
+      .limit_text_mob {
+        display: block;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+
+        text-align: center;
+        text-transform: uppercase;
+        color: #00667D;
+        max-width: 100%;
+        margin: 0px auto 16px;
+      }
+
+      .card {
+        flex-basis: 288px;
+        width: 288px;
+        margin: 0 auto;
+      }
+
+      .limit_img {
+        img {
+          max-width: 288px;
+        }
+      }
+
+      .limit_info {
+
+        .limit_text {
+          display: none;
+        }
+
+        .limit_info_inner {
+          padding: 16px 0px 0px;
+        }
+
+        .limit_list {
+          font-size: 14px;
+          line-height: 22px;
+        }
+
+        .decor {
+          width: 288px;
+          height: 60px;
+          text-align: center;
+          box-sizing: border-box;
+        }
+
+        .decor1 {
+          padding: 0 18px;
+          margin-top: 8px;
+          font-size: 20px;
+          line-height: 20px;
+        }
+
+        .decor2 {
+          margin-top: 10px;
+          font-size: 20px;
+          line-height: 20px;
+        }
+
+        .decor3 {
+          margin-top: 10px;
+          margin-bottom: 10px;
+
+          font-size: 20px;
+          line-height: 24px;
+        }
+
+        .subtext {
+          font-size: 13px;
+          line-height: 16px;
+        }
+
+        .limit_img_btn {
+          margin-top: 8px;
         }
       }
     }
