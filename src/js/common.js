@@ -3,49 +3,15 @@
 import './../scss/common.scss';
 
 import $ from 'jquery';
-import 'slick-carousel';
+import 'jquery-snowfall';
 
 window.$ = window.jQuery = $;
 
 window.addEventListener('DOMContentLoaded', () => {
-    openMore();
-
-    function openMore() {
-        const $btnMore = $('#btn_more');
-        const $shadow = $('.about_top .shadow');
-        const $aboutBottom = $('.about_bottom');
-
-        $btnMore.on('click', function () {
-            $(this).find('span').text(function (i, text) {
-                return text === "Читати повністю" ? "Згорнути" : "Читати повністю";
-            })
-
-            $aboutBottom.slideToggle();
-            $shadow.fadeToggle()
-        })
-    }
-
-    $('.banner .inner').click(function(){
-        window.location.href='https://parfums.ua/ua/promotions/dostavka-krasoti';
-    });
-
-    $('.js-bestsellers__slider').slick(
-        {
-            dots: true,
-            arrows: true,
-            infinite: false,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        arrows: false
-                    }
-                },
-            ]
-        }
-    );
+    // $(".vichy_ny2021").snowfall({
+    //     image: "https://cdnparftop.parfums.ua/public/upload/newAdminUpload/Landing/NYvichy89/flake1.png",
+    //     minSize: 10,
+    //     maxSize: 32
+    // });
+    //$(".vichy_ny2021").snowfall();
 })
