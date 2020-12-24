@@ -13,5 +13,12 @@ window.addEventListener('DOMContentLoaded', () => {
     //     minSize: 10,
     //     maxSize: 32
     // });
-    //$(".vichy_ny2021").snowfall();
+    // $(".vichy_ny2021").snowfall({
+    //     minSize: 5,
+    //     maxSize: 10,
+    //     round: true,
+    //     shadow: true,
+    //     flakeCount: 100,
+    //     maxSpeed: 5
+    // });
 })
